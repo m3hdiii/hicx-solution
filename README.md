@@ -27,7 +27,7 @@ Navigate to [target] directory and you will see 2 files:
 All of the above run the same application but in different environment. You can run:
 ```sh
 java -jar hicx-solution-1.0-SNAPSHOT.jar /home/myuser/Desktop/resource-dir
-cmd -> hicx-solution-1.0-SNAPSHOT.exe C:\users\myuser\desktop\hicx-solution-1.0-SNAPSHOT.exe C:\Path\To\Root\Resource\Directory
+cmd -> hicx-solution-1.0-SNAPSHOT.exe C:\Path\To\Root\Resource\Directory
 ```
 After you run the application, the app will create input, processed, unsupported folders if they don't exist within the root folder..
 In this phase:
