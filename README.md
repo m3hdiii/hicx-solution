@@ -12,7 +12,7 @@ Based on what is asked from the question this app:
 - calculates the number of words, number of dots and most used word
 
 ### Running the application:
-To run the appli4cation you should compile and build the app using maven. To do that follow the below instruction:
+To run the application you should compile and build the app using maven. To do that follow the below instruction:
 
 - navigate to the project root directory where [pom.xml] file exists.
 - open a console/cmd prompt terminal and execute this command --> mvn clean install
@@ -29,8 +29,14 @@ All of the above run the same application but in different environment. You can 
 java -jar hicx-solution-1.0-SNAPSHOT.jar /home/myuser/Desktop/resource-dir
 cmd -> hicx-solution-1.0-SNAPSHOT.exe C:\users\myuser\desktop\hicx-solution-1.0-SNAPSHOT.exe C:\Path\To\Root\Resource\Directory
 ```
-After you run the application, the app will create input, processed, unsupported folder if they don't exist within the root folder..
-**In this phase** you can copy your files within the input folder and see the result within the console
+After you run the application, the app will create input, processed, unsupported folders if they don't exist within the root folder..
+In this phase:
+- If there are files withint the input folder, they are processed automatically
+- If you copy some file within the input folder, the application will process those files too
+- The results will be available within the console
+- The file will move from input folder to the processed folder
+- Just in case if the file is not a plain text file, the application recognize that and move the file to unsupported folder 
+
 ---
 
 I tries to implement all the requirements and I tested the solution on **Linux Ubuntu version 20.04**. Moreover, for better explanation, I put some documents for the classes and interfaces..
