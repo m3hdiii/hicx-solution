@@ -1,0 +1,35 @@
+Introduction:
+
+Based on what is asked from the question this app:
+1- have been written using IntelliJ Idea
+2- is fully plain Java. I didn't add any dependency to my pom.xml file except JUnit which is for tests.
+3- has some tests. You can refer to those tests if you wish
+4- is packed with maven and I used multiple plugins for creating an exe file and jar file for running it easily
+5- is written for showing the result within console
+6- process the plain text file and apply whatever is asked for
+7- calculates the number of words, number of dots and most used word
+
+Running the application:
+To run the application you should compile and build the app using maven. To do that follow the below instruction:
+1- navigate to the project root directory where [pom.xml] file exists.
+2- open a console/cmd prompt terminal and execute this command --> mvn clean install
+Take note you should have installed maven before doing the above.
+
+The above commands compile and build the project using maven and create a new directory called *target.
+Navigate to [target] directory and you will see 2 files:
+1- hicx-solution-1.0-SNAPSHOT.jar (to run the application in all platforms, Linux, Windows, Mac, etc)
+2- hicx-solution-1.0-SNAPSHOT.exe (to run the application in windows applications only)
+
+All of the above run the same application but in different environment. You can run:
+1-  java -jar hicx-solution-1.0-SNAPSHOT.jar /home/myuser/Desktop/resource-dir
+2-  cmd -> hicx-solution-1.0-SNAPSHOT.exe C:\users\myuser\desktop\hicx-solution-1.0-SNAPSHOT.exe C:\Path\To\Root\Resource\Directory
+
+After you run the application, the app will create input, processed, unsupported folder if they don't exist within the root folder..
+
+**In this phase you can copy your files within the input folder and see the result within the console
+------------
+
+The application follow all your instructions and it tested on Linux Ubuntu version 20.04. Moreover, the classes and interfaces are documented..
+
+Thank You,
+Mehdi Afsarikashi
